@@ -55,17 +55,20 @@ section {
 }
 
 .btn {
-  margin-top: 1rem;
+  margin-top: 4rem;
   display: inline-block;
   padding: 0.9rem 3rem;
-  font-size: 1.7rem;
-  color: #fff;
-  background: #ffc107;
+  font-size: 2rem;
+  color: #000000;
+  background: #ffffff;
   cursor: pointer;
+  font-weight: 500;
+  
 }
 
 .btn:hover {
   letter-spacing: 0.2rem;
+  scale: 1.1;
 }
 
 .header {
@@ -84,10 +87,11 @@ section {
 
 .header .logo img {
   max-width: 75px;
+  border-radius: 50% ;
 }
 
 .header .navbar a {
-  margin: 0 1rem;
+  margin: 0 4rem;
   font-size: 1.6rem;
   color: #fff;
 }
@@ -103,6 +107,8 @@ section {
   cursor: pointer;
   font-size: 2.5rem;
   margin-left: 2rem;
+  display: inline-block;
+  margin-right: 15px;
 }
 
 .header .icons div:hover {
@@ -220,7 +226,7 @@ section {
 }
 
 .home span {
-  color: #ffc107;
+  color: #ff2600;
   text-transform: uppercase;
 }
 
@@ -231,8 +237,16 @@ section {
 }
 
 .home .content p {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: lighter;
+  line-height: 1.8;
+  padding: 1rem 0;
+  color: #eee;
+}
+
+.home .content p span {
+  font-size: 3rem;
+  font-weight: 400;
   line-height: 1.8;
   padding: 1rem 0;
   color: #eee;
@@ -251,6 +265,7 @@ section {
 
 .about .row .image img {
   width: 100%;
+  
 }
 
 .about .row .content {
